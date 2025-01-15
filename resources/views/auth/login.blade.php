@@ -28,7 +28,7 @@
           width: 220px;
           top: -60px;
           left: -130px;
-          background: radial-gradient(#44006b, #ad1fff);
+          background: radial-gradient(#cf943a, #bb4704);
           overflow: hidden;
         }
     
@@ -38,7 +38,7 @@
           right: -110px;
           width: 300px;
           height: 300px;
-          background: radial-gradient(#44006b, #ad1fff);
+          background: radial-gradient(#cf943a, #bb4704);
           overflow: hidden;
         }
     
@@ -55,14 +55,13 @@
         <div class="row gx-lg-5 align-items-center mb-5">
           <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
             <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
-              The best offer <br />
-              <span style="color: hsl(218, 81%, 75%)">for your business</span>
+              Aplikasi Kasir Cepat, Akurat <br />
+              <span style="color: hsl(36, 94%, 45%)">& Mudah Digunakan</span>
             </h1>
             <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Temporibus, expedita iusto veniam atque, magni tempora mollitia
-              dolorum consequatur nulla, neque debitis eos reprehenderit quasi
-              ab ipsum nisi dolorem modi. Quos?
+              Permudah transaksi bisnis Anda dengan aplikasi kasir yang cepat, akurat, 
+              dan mudah digunakan, memberikan pengalaman berbelanja yang lebih efisien dan terorganisir, s
+              erta mendukung perkembangan usaha Anda.
             </p>
           </div>
     
@@ -77,69 +76,34 @@
 
                   <div class="title">
                     <center>
+                      <img src="{{asset('assets/media/logos/logokasir.png')}}" style=" height: 70px; width: 70px;">
                       <h1> LOG IN </h1>
+                      <h6>Welcome Back</h6>
+                      <br>
                     </center>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-6 mb-4">
-                      <div data-mdb-input-init class="form-outline">
-                        <input type="text" id="form3Example1" class="form-control" />
-                        <label class="form-label" for="form3Example1">First name</label>
-                      </div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                      <div data-mdb-input-init class="form-outline">
-                        <input type="text" id="form3Example2" class="form-control" />
-                        <label class="form-label" for="form3Example2">Last name</label>
-                      </div>
-                    </div>
-                  </div>
+  
     
                   <!-- Email input -->
                   <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="email" id="form3Example3" class="form-control" />
                     <label class="form-label" for="form3Example3">Email address</label>
+                    <input type="email" id="form3Example3" class="form-control" />
                   </div>
     
                   <!-- Password input -->
                   <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="password" id="form3Example4" class="form-control" />
                     <label class="form-label" for="form3Example4">Password</label>
+                    <input type="password" id="form3Example4" class="form-control" />
                   </div>
     
-                  <!-- Checkbox -->
-                  <div class="form-check d-flex justify-content-center mb-4">
-                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-                    <label class="form-check-label" for="form2Example33">
-                      Subscribe to our newsletter
-                    </label>
-                  </div>
+          
     
                   <!-- Submit button -->
                   <center>
                     <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">
-                      Sign Up
+                      Log In
                     </button>
                   </center>
-    
-                  <!-- Register buttons -->
-                  <div class="text-center">
-                    <p>or sign up with:</p>
-                    <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
-                      <i class="fab fa-facebook-f"></i> Facebook
-                    </button>
-    
-                    <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
-                      <i class="fab fa-google"></i> google
-                    </button>
-    
-                    <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
-                      <i class="fab fa-twitter"></i> Twitter
-                    </button>
-    
-                    <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
-                      <i class="fab fa-github"></i> Github
-                    </button>
+  
                   </div>
                 </form>
               </div>
