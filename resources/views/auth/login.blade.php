@@ -106,10 +106,15 @@
     
                   <!-- Submit button -->
                   <center>
-                    <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">
-                      Log In
-                    </button>
+                    <form action="{{ route('login') }}" method="POST">
+                      @csrf
+                      <button type="submit" class="btn btn-primary btn-block mb-4">
+                        Log In
+                      </button>
+                    </form>
                   </center>
+                  
+                  
   
                   </div>
                 </form>
