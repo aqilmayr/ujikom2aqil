@@ -71,12 +71,16 @@
     
             <div class="card bg-glass">
               <div class="card-body px-4 py-5 px-md-5">
-                <form>
+                <form method="POST" action="{{ url('/login') }}">
+                  @csrf
                   <!-- 2 column grid layout with text inputs for the first and last names -->
 
                   <div class="title">
                     <center>
-                      <img src="{{asset('assets/media/logos/logokasir.png')}}" style=" height: 70px; width: 70px;">
+                      <a href="{{ route('welcome') }}">
+                        <img src="{{ asset('assets/media/logos/logokasir.png') }}" style="height: 70px; width: 70px;">
+                    </a>
+                    
                       <h1> LOG IN </h1>
                       <h6>Welcome Back</h6>
                       <br>
@@ -94,8 +98,11 @@
                     <label class="form-label" for="form3Example4">Password</label>
                     <input type="password" id="form3Example4" class="form-control" />
                   </div>
-    
-          
+
+                  <div>
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
     
                   <!-- Submit button -->
                   <center>
