@@ -32,6 +32,14 @@ class AuthenticatedSessionController extends Controller
         return redirect()->intended(RouteServiceProvider::HOME);
     }
 
+    // Example: Automatically redirect to dashboard after login
+
+
+    
+protected function authenticated(Request $request, $user)
+{
+    return redirect()->intended('/dashboard');
+}
     /**
      * Destroy an authenticated session.
      */
@@ -46,3 +54,4 @@ class AuthenticatedSessionController extends Controller
         return redirect('/');
     }
 }
+

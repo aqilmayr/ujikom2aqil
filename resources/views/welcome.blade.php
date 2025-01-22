@@ -84,8 +84,6 @@
 
     </section><!-- /Hero Section -->
 
-   
-
   <!-- Main JS File -->
   <script src="assetsmain.js"></script>
 
