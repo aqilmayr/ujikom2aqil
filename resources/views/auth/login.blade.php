@@ -73,7 +73,7 @@
                 @csrf
                 <div class="title">
                   <center>
-                    <a href="{{ route('landingpage') }}">
+                    <a href="{{ route('welcome') }}">
                       <img src="{{ asset('assets/media/logos/logokasir.png') }}" style="height: 70px; width: 70px;">
                     </a>
                     <h1> LOG IN </h1>
